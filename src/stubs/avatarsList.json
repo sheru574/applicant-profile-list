@@ -1,0 +1,64 @@
+{
+  "avatars": [
+    {
+      "profileId": 0,
+      "name": "Person One",
+      "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Max",
+      "skills": [
+        {
+          "skill": "React JS",
+          "rating": 5
+        },
+        {
+          "skill": "Vue JS",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "profileId": 1,
+      "name": "Person Two",
+      "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Precious",
+      "skills": [
+        {
+          "skill": "Node JS",
+          "rating": 5
+        },
+        {
+          "skill": "Python",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "profileId": 2,
+      "name": "Person Three",
+      "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Cuddles",
+      "skills": [
+        {
+          "skill": "Java",
+          "rating": 2
+        },
+        {
+          "skill": "JavaScript",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "profileId": 3,
+      "name": "Person Four",
+      "image": "https://api.dicebear.com/9.x/adventurer/svg?seed=Cookie",
+      "skills": [
+        {
+          "skill": "Django",
+          "rating": 1
+        },
+        {
+          "skill": "PHP",
+          "rating": 4
+        }
+      ]
+    }
+  ]
+}
