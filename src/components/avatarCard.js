@@ -4,10 +4,10 @@ const AvatarCard = ({ avatar, handleEditClick }) => {
       <div className="card-body">
         <img src={avatar.image} alt={avatar.name} width={'40px'} height={'40px'} className="card-img-top" />
         <h5 className="card-title"> {avatar.name}</h5>
-        <button type="button" 
-        className="btn btn-primary" 
-        onClick={() => handleEditClick(avatar)}
-       style={{width:'100%'}}
+        <button type="button"
+          className="btn btn-primary"
+          onClick={() => handleEditClick(avatar)}
+          style={{ width: '100%' }}
         >
           Edit Profile
         </button>

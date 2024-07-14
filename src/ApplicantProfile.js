@@ -43,7 +43,7 @@ const ApplicantProfile = () => {
             delete validationMessages[index][field]
           }
         } else {
-          if(!validationMessages[index]) validationMessages[index]={};
+          if (!validationMessages[index]) validationMessages[index] = {};
           validationMessages[index][field] = `${field.charAt(0).toUpperCase()}${field.slice(1)} is required`;
         }
       }
